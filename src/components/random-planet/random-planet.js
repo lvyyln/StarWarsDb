@@ -11,11 +11,11 @@ export default class RandomPlanet extends Component {
     loading : true
   };
 
-  constructor() {
-    super();
-    this.UpdateState();
+  componentDidMount(){
     this.interval = setInterval(this.UpdateState,4000)
+    this.UpdateState();
   }
+
 
   componentWillUnmount() {
     clearInterval(this.interval);
