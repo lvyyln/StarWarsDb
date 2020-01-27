@@ -2,13 +2,14 @@ import ItemList from "../item-list";
 import PersonDetails from "../person-details";
 import React, {Component} from 'react';
 import SwapiService from "../../services/swapi-service";
+import {Row} from "../row/row";
 
 export default class StarshipsPage extends Component {
 
     swapiService = new SwapiService();
 
     state = {
-        id: 3
+        id: null
     };
 
     onPersonSelected = (id) => {
@@ -18,23 +19,16 @@ export default class StarshipsPage extends Component {
         console.log(id);
     };
 
-    render(){
-
+    render() {
         const {personSelectedId} = this.state;
-
-        return(
-            <div className="row mb2">
-                <div className="col-md-6">
-                    <ItemList
-                        getData = {() => this.swapiService.getAllPlanets()}
-                        onItemSelected={this.onPersonSelected}
-                        renderItem = {(item) => `${item.name}`}
-                    />
-                </div>
-                <div className="col-md-6">
-                    <PersonDetails personId={personSelectedId}/>
-                </div>
-            </div>
+        const personDetails = (<PersonDetails personId={personSelectedId}/>);
+        const itemList = (
+            <ItemList getData={() => this.swapiService.getAllStarships()}
+                      onItemSelected={this.onPersonSelected}>
+                      {(item) => `${item.name}`}
+            </ItemList>);
+        return (
+            <Row left={itemList} right={personDetails}/>
         )
     }
 }

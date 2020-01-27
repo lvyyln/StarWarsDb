@@ -6,8 +6,6 @@ import SwapiService from "../../services/swapi-service";
 import {Row} from "../row/row";
 
 
-
-
 export default class PeoplePage extends Component {
 
     swapiService = new SwapiService();
@@ -26,9 +24,11 @@ export default class PeoplePage extends Component {
     render() {
         const {personSelectedId} = this.state;
         const personDetails = (<PersonDetails personId={personSelectedId}/>);
-        const itemList = (<ItemList getData={() => this.swapiService.getAllPeople()}
-                                    renderItem={(item) => `${item.name}  (${item.gender} ${item.birthYear})`}
-                                    onItemSelected={this.onPersonSelected}/>);
+        const itemList = (
+            <ItemList getData={() => this.swapiService.getAllPeople()}
+                      onItemSelected={this.onPersonSelected}>
+                {(item) => `${item.name}  (${item.gender} ${item.birthYear})`}
+            </ItemList>);
         return (
             <Row left={itemList} right={personDetails}/>
         )

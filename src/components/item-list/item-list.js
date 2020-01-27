@@ -22,7 +22,7 @@ export default class ItemList extends Component {
         return arr.map((item) => {
             const{id} = item;
 
-            const value = this.props.renderItem(item);
+            const value = this.props.children(item);
             return (
 
                 <li className="list-group-item"
