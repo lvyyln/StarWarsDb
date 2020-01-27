@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846d4f13-1263-4544-8c61-c9077bfed809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundry/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships-page/starships-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/starships-page/starships-page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
       <workItem from="1579446090293" duration="441000" />
       <workItem from="1579784062343" duration="80000" />
       <workItem from="1579784441687" duration="3629000" />
-      <workItem from="1580126996336" duration="2711000" />
+      <workItem from="1580126996336" duration="3871000" />
     </task>
     <servers />
   </component>
@@ -245,10 +246,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1577960761815" />
-    <state x="-1381" y="197" width="840" height="854" key="search.everywhere.popup" timestamp="1580129631516">
+    <state x="-1381" y="197" width="840" height="854" key="search.everywhere.popup" timestamp="1580130888764">
       <screen x="-1920" y="2" width="1920" height="1050" />
     </state>
-    <state x="-1381" y="197" width="840" height="854" key="search.everywhere.popup/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580129631516" />
+    <state x="-1381" y="197" width="840" height="854" key="search.everywhere.popup/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580130888764" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1579340861084" />
   </component>
 </project>
