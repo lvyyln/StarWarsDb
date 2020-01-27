@@ -3,6 +3,10 @@ import PersonDetails from "../person-details";
 import ItemList from '../item-list';
 import './people-page.css';
 import SwapiService from "../../services/swapi-service";
+import {Row} from "../row/row";
+
+
+
 
 export default class PeoplePage extends Component {
 
@@ -20,17 +24,13 @@ export default class PeoplePage extends Component {
     };
 
     render() {
-
-        const{personSelectedId} = this.state;
+        const {personSelectedId} = this.state;
+        const personDetails = (<PersonDetails personId={personSelectedId}/>);
+        const itemList = (<ItemList getData={() => this.swapiService.getAllPeople()}
+                                    renderItem={(item) => `${item.name}  (${item.gender} ${item.birthYear})`}
+                                    onItemSelected={this.onPersonSelected}/>);
         return (
-            <div className="row mb2 data-box-container">
-                <div className="col-md-6">
-                    <ItemList getData={() => this.swapiService.getAllPeople()} onItemSelected={this.onPersonSelected}/>
-                </div>
-                <div className="col-md-6">
-                    <PersonDetails personId={personSelectedId}/>
-                </div>
-            </div>
+            <Row left={itemList} right={personDetails}/>
         )
     }
 }
