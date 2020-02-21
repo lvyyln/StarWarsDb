@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846d4f13-1263-4544-8c61-c9077bfed809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/login-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/people-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/planets-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/secret-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/starship-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/person-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/planet-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/starship-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundry/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundry/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-button/error-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-button/error-button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-button/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/row/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/row/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/row/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spinner/spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spinner/spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships-page/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships-page/starships-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships-page/starships.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/people-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/planets-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/planets-page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +144,7 @@
       <workItem from="1582049103871" duration="3668000" />
       <workItem from="1582116433253" duration="597000" />
       <workItem from="1582135384303" duration="397000" />
+      <workItem from="1582288702667" duration="552000" />
     </task>
     <servers />
   </component>
@@ -223,29 +173,33 @@
     </state>
     <state x="-1234" y="217" key="FileChooserDialogImpl/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1579781620057" />
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582135780185" />
-    <state width="748" height="119" key="GridCell.Tab.0.bottom" timestamp="1582052994889">
+    <state width="1515" height="120" key="GridCell.Tab.0.bottom" timestamp="1582288776310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="747" height="119" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1582043894331" />
     <state width="1899" height="171" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580127332853" />
+    <state width="1515" height="120" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.2.1920.1050@0.0.1536.834" timestamp="1582288776310" />
     <state width="748" height="119" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582052994889" />
-    <state width="748" height="119" key="GridCell.Tab.0.center" timestamp="1582052994887">
+    <state width="1515" height="120" key="GridCell.Tab.0.center" timestamp="1582288776309">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="747" height="119" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1582043894330" />
     <state width="1899" height="171" key="GridCell.Tab.0.center/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580127332853" />
+    <state width="1515" height="120" key="GridCell.Tab.0.center/0.0.1536.834/-1920.2.1920.1050@0.0.1536.834" timestamp="1582288776309" />
     <state width="748" height="119" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582052994887" />
-    <state width="748" height="119" key="GridCell.Tab.0.left" timestamp="1582052994884">
+    <state width="1515" height="120" key="GridCell.Tab.0.left" timestamp="1582288776309">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="747" height="119" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1582043894328" />
     <state width="1899" height="171" key="GridCell.Tab.0.left/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580127332853" />
+    <state width="1515" height="120" key="GridCell.Tab.0.left/0.0.1536.834/-1920.2.1920.1050@0.0.1536.834" timestamp="1582288776309" />
     <state width="748" height="119" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582052994884" />
-    <state width="748" height="119" key="GridCell.Tab.0.right" timestamp="1582052994887">
+    <state width="1515" height="120" key="GridCell.Tab.0.right" timestamp="1582288776310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="747" height="119" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1582043894330" />
     <state width="1899" height="171" key="GridCell.Tab.0.right/0.0.1536.834/-1920.2.1920.1050@-1920.2.1920.1050" timestamp="1580127332853" />
+    <state width="1515" height="120" key="GridCell.Tab.0.right/0.0.1536.834/-1920.2.1920.1050@0.0.1536.834" timestamp="1582288776310" />
     <state width="748" height="119" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582052994887" />
     <state width="1515" height="242" key="GridCell.Tab.1.bottom" timestamp="1581844188080">
       <screen x="0" y="0" width="1536" height="834" />

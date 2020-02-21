@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
 import Row from "../row";
 import {PersonList, PlanetList} from "../sw-components/item-lists";
-import PersonDetails from "../sw-components/person-details";
 import PlanetDetails from "../sw-components/planet-details";
 
 export default class PlanetPage extends Component{

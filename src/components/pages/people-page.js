@@ -2,7 +2,6 @@ import React,{Component} from 'react'
 import Row from "../row";
 import {PersonList} from "../sw-components/item-lists";
 import PersonDetails from "../sw-components/person-details";
-import {withRouter} from 'react-router-dom';
 
 export default class PeoplePage extends Component{
 
