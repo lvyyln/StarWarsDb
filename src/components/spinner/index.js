@@ -1,3 +1,3 @@
-import SpinnerAt from './spinner';
+import Spinner from './spinner';
 
-export default SpinnerAt;
+export default Spinner;
